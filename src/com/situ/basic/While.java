@@ -32,4 +32,21 @@ public class While {
 		System.out.println(sum);
 	}
 	
+	@Test
+	public void doWhile1() {
+		int i = 0;
+		do {
+			System.out.println("Hello world!");
+			i++;
+		} while (i < 5);
+	}
+	
+	@Test
+	public void doWhile2() {
+		// 特显示先执行循环体再判断，do-while使用比较少。
+		int i = 0;
+		do {
+			System.out.println("Hello world!");
+		} while (i < 0);
+	}
 }

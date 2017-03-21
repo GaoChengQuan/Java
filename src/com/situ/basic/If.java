@@ -6,7 +6,7 @@ public class If {
 
 	@Test
 	public void test1() {
-		int a = 5;
+		int a = 1;
 		int b = 3;
 		if (a > b) {
 			System.out.println("a>b");
@@ -19,9 +19,10 @@ public class If {
 	 * 逢四不逢白，逢四百。
 	 * 1.可以被4整除,但不能被100整除
 	 * 2.可以被400整除
+	 * 
 	 */
 	@Test
-	public void RunNian() {
+	public void runNian() {
 		int year = 2017;
 		if (year % 4 == 0 && year % 100 != 0 
 				|| (year % 400 == 0)) {

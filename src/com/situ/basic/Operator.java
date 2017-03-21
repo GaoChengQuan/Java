@@ -11,6 +11,9 @@ import org.junit.Test;
  * 
  */
 public class Operator {
+	public static void main(String[] args) {
+
+	}
 
 	/**
 	 * 1、算数运算符
@@ -41,7 +44,7 @@ public class Operator {
 		System.out.println("十位数：" + shi);
 		System.out.println("个位数：" + ge);
 	}
-	
+
 	/**
 	 * 2、逻辑运算符
 	 */
